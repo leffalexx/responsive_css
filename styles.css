@@ -12,7 +12,6 @@ a {
 body {
     font-style: normal;
     font-family: 'Lato', sans-serif;
-    /*font-family: 'Open Sans', sans-serif;*/
 }
 
 .center {
@@ -27,11 +26,6 @@ body {
     justify-content: space-between;
 
     background: #222;
-}
-
-.top {
-    position: relative;
-    overflow: hidden;
 }
 
 .header__left {
@@ -53,23 +47,37 @@ body {
     background: #F1E4E6;
 }
 
+.logo__photo {
+    width: 50%;
+}
+.main__model    {
+
+}
+
 .top__logo {
-    display: flex;
-    margin: 290px 331px 381px 63px;
-    gap: 16px;
+    padding-left: 64px;
 }
 
 .top__label {
-    line-height: 58px;
-    max-width: 377px;
-    font-weight: 700;
-    font-size: 32px;
-    color: #222;
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+    margin-top: 48%;
 }
 
 .label__motto {
+    font-style: normal;
     font-weight: 900;
     font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+}
+
+.label__heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
 }
 
 .pink__word {
@@ -92,7 +100,7 @@ body {
 }
 
 .image__wide {
-    width: 1140px;
+    max-width: 1140px;
     position: relative;
 }
 
@@ -115,6 +123,14 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+}
+
+.sale__image {
+
+}
+
+.sale__image__wide {
+    
 }
 
 .text {
@@ -237,4 +253,52 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+}
+
+@media(max-width:1024px) {
+    .main__model {
+        max-width: 386px;
+    }
+
+    .top__label {
+        margin-right: 32px;
+    }
+
+    .top__logo {
+        padding-left: 39px;
+    }
+
+    .label__motto {
+        font-size: 44px;
+    }
+
+    .label__heading {
+        font-size: 24px;
+    }
+
+    .sales__adv {
+        gap: 19px;
+    }
+
+    .sales__adv {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .image {
+        max-width: 232px;
+    }
+
+    .sale__image {
+        max-width: 232px;
+    }
+
+    .sale__image__wide {
+    max-width: 734px;
+    }
+
+    .image__wide {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }
