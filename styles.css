@@ -302,3 +302,51 @@ body {
         padding-right: 16px;
     }
 }
+
+@media(max-width:767px) {
+    .center {
+        padding-left: calc(50% - 182px);
+        padding-right: calc(50% - 182px);
+    }
+
+    .header {
+        justify-items: auto;
+    }
+
+    .header__logo__off {
+        display: none;
+    }
+    
+    .logo__photo    {
+        display: none;
+    }
+
+    .top__label     {
+        margin-bottom: 148px;
+        margin-top: 149px;
+    }
+
+    .label__motto   {
+        font-size: 38px;
+    }
+
+    .label__heading     {
+        font-size: 20px;
+    }
+
+    .image  {
+        max-width: 343px;
+    }
+
+    .sale__image    {
+        max-width: 343px;
+    }
+
+    .image__wide    {
+        max-width: 343px;
+    }
+
+    .sale__image__wide  {
+        max-width: 343px;
+    }
+}
