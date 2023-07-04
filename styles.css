@@ -282,6 +282,7 @@ body {
     max-width: 360px;
     position: relative;
     transition: transform 1s;
+    -webkit-filter: brightness(70%);
 }
 
 .image:hover {
@@ -292,6 +293,7 @@ body {
     max-width: 1140px;
     position: relative;
     transition: transform 1s;
+    -webkit-filter: brightness(70%)
 }
 
 .image__wide:hover {
